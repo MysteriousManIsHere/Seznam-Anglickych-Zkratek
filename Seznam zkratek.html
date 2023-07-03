@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Seznam zkratek</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    
+    h1 {
+      text-align: center;
+    }
+    
+    .frame {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      background-color: #f7f7f7;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .button {
+      margin-right: 10px;
+      margin-bottom: 10px;
+      padding: 8px 16px;
+      font-size: 14px;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #fff;
+      background-color: #000000;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    .button:hover {
+      background-color: #45a049;
+    }
+  </style>
+  <script>
+    function showDefinition(shortcut) {
+      const definitions = {
+        AS: "Definice zkratky AS: To znamená.",
+        ASAP: "Definice zkratky ASAP: As soon as possible - Co nejdříve možno.",
+        BG: "Definice zkratky BG: Good game - Hezká hra.",
+        BTW: "Definice zkratky BTW: By the way - Mimochodem.",
+        cc: "Definice zkratky cc: Carbon copy - Kopie (e-mailu).",
+        CD: "Definice zkratky CD: Compact disc - Kompaktní disk.",
+        cs: "Definice zkratky cs: Czech Republic - Česká republika.",
+        CU: "Definice zkratky CU: See you - Uvidíme se.",
+        dd: "Definice zkratky dd: Due date - Termín (splatnosti).",
+        dk: "Definice zkratky dk: Don't know - Nevím.",
+        DNS: "Definice zkratky DNS: Domain Name System - Systém doménových jmen.",
+        DS: "Definice zkratky DS: Dear son - Milý synu.",
+        etc: "Definice zkratky etc: Et cetera - A tak dále.",
+        eu: "Definice zkratky eu: European Union - Evropská unie.",
+        FA: "Definice zkratky FA: Football Association - Fotbalová asociace.",
+        FO: "Definice zkratky FO: Freaking out - Děsivé.",
+        fy: "Definice zkratky fy: For you - Pro tebe.",
+        FYI: "Definice zkratky FYI: For your information - Pro vaši informaci.",
+        IMHO: "Definice zkratky IMHO: In my humble opinion - Podle mého skromného názoru.",
+        JJ: "Definice zkratky JJ: Just joking - Jen si dělám srandu.",
+        lol: "Definice zkratky lol: Laugh out loud - Hlasitě se smát.",
+        LU: "Definice zkratky LU: Love you - Miluji tě.",
+        MG: "Definice zkratky MG: My goodness - Můj bože.",
+        NB: "Definice zkratky NB: Nota bene - Všimni si.",
+        ND: "Definice zkratky ND: No date - Bez data.",
+        ok: "Definice zkratky ok: Okay - Dobře.",
+        OMG: "Definice zkratky OMG: Oh my god - Můj bože.",
+        OP: "Definice zkratky OP: Original poster - Původní autor příspěvku.",
+        pc: "Definice zkratky pc: Personal computer - Osobní počítač.",
+        PM: "Definice zkratky PM: Private message - Soukromá zpráva.",
+        PN: "Definice zkratky PN: Private note - Soukromá poznámka.",
+        POV: "Definice zkratky POV: Point of view - Pohled, stanovisko.",
+        pp: "Definice zkratky pp: Pages - Stránky.",
+        PPP: "Definice zkratky PPP: Point-to-Point Protocol - Bod k bodu protokol.",
+        RIP: "Definice zkratky RIP: Rest in peace - Odpočívej v pokoji.",
+        SD: "Definice zkratky SD: Secure Digital - Bezpečná digitální paměťová karta.",
+        tj: "Definice zkratky tj: To je - To je.",
+        tk: "Definice zkratky tk: To come - Přijde.",
+        wtf: "Definice zkratky wtf: What the f*ck - Co to sakra.",
+        yolo: "Definice zkratky yolo: You only live once - Žiješ jen jednou.",
+        Lmao1: "Definice zkratky Lmao: Laughing Out Of My Ass - Smát se z mého zadku.",
+        Lmao2: "Definice zkratky Lmao: Laughing My Ass Off - Po*ělám se smíchy."
+      };
+      
+      const definition = definitions[shortcut];
+      const definitionElement = document.getElementById("definition");
+      definitionElement.textContent = definition;
+    }
+  </script>
+</head>
+<body>
+  <h1>Seznam zkratek</h1>
+  
+  <div class="frame">
+    <button class="button" onclick="showDefinition('AS')">AS</button>
+    <button class="button" onclick="showDefinition('ASAP')">ASAP</button>
+    <button class="button" onclick="showDefinition('BG')">BG</button>
+    <button class="button" onclick="showDefinition('BTW')">BTW</button>
+    <button class="button" onclick="showDefinition('cc')">cc</button>
+    <button class="button" onclick="showDefinition('CD')">CD</button>
+    <button class="button" onclick="showDefinition('cs')">cs</button>
+    <button class="button" onclick="showDefinition('CU')">CU</button>
+    <button class="button" onclick="showDefinition('dd')">dd</button>
+    <button class="button" onclick="showDefinition('dk')">dk</button>
+    <button class="button" onclick="showDefinition('DNS')">DNS</button>
+    <button class="button" onclick="showDefinition('DS')">DS</button>
+    <button class="button" onclick="showDefinition('etc')">etc</button>
+    <button class="button" onclick="showDefinition('eu')">eu</button>
+    <button class="button" onclick="showDefinition('FA')">FA</button>
+    <button class="button" onclick="showDefinition('FO')">FO</button>
+    <button class="button" onclick="showDefinition('fy')">fy</button>
+    <button class="button" onclick="showDefinition('FYI')">FYI</button>
+    <button class="button" onclick="showDefinition('IMHO')">IMHO</button>
+    <button class="button" onclick="showDefinition('JJ')">JJ</button>
+    <button class="button" onclick="showDefinition('lol')">lol</button>
+    <button class="button" onclick="showDefinition('LU')">LU</button>
+    <button class="button" onclick="showDefinition('MG')">MG</button>
+    <button class="button" onclick="showDefinition('NB')">NB</button>
+    <button class="button" onclick="showDefinition('ND')">ND</button>
+    <button class="button" onclick="showDefinition('ok')">ok</button>
+    <button class="button" onclick="showDefinition('OMG')">OMG</button>
+    <button class="button" onclick="showDefinition('OP')">OP</button>
+    <button class="button" onclick="showDefinition('pc')">pc</button>
+    <button class="button" onclick="showDefinition('PM')">PM</button>
+    <button class="button" onclick="showDefinition('PN')">PN</button>
+    <button class="button" onclick="showDefinition('POV')">POV</button>
+    <button class="button" onclick="showDefinition('pp')">pp</button>
+    <button class="button" onclick="showDefinition('PPP')">PPP</button>
+    <button class="button" onclick="showDefinition('RIP')">RIP</button>
+    <button class="button" onclick="showDefinition('SD')">SD</button>
+    <button class="button" onclick="showDefinition('tj')">tj</button>
+    <button class="button" onclick="showDefinition('tk')">tk</button>
+    <button class="button" onclick="showDefinition('wtf')">wtf</button>
+    <button class="button" onclick="showDefinition('yolo')">yolo</button>
+    <button class="button" onclick="showDefinition('Lmao1')">Lmao1</button>
+    <button class="button" onclick="showDefinition('Lmao2')">Lmao2</button>
+  </div>
+  
+  <p id="definition" style="text-align: center; font-weight: bold;">Definice zkratky zde zobrazíme.</p>
+  <p id="definition" style="text-align: center; font-weight: bold;">Prosím sdílejte tuto stránku.</p>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>IDK</title>
+  <link rel="stylesheet" type="text/css" href="IDK.css">
+</head>
+<body>
+  <h1></h1>
+  <p></p>
+  
+  <script src="IDK.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+
